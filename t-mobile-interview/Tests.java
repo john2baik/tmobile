@@ -1,29 +1,13 @@
-import static org.junit.Assert.assertEquals;
+import Solution.Solution;
 
-import java.util.Scanner;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 
-import Solution.Solution;
-
-public class Interview{
-
+public class Tests {
     Solution solution = new Solution();
-    public static void main(String[] args){
-        System.out.println("Please Enter the Postfix Expression: \n");
-        Scanner sc = new Scanner(System.in);
-        String input = sc.nextLine();
-
-        String[] s = input.split(" ");
-
-        Solution solution = new Solution();
-        solution.printSolution(s);
-        sc.close();
-    }
-
-
-
+    
     @Test
     public void testPrintSolution(){
         String[] s = new String[]{"Hello", "World"};
@@ -41,6 +25,5 @@ public class Interview{
     Assertions.assertThrows(NumberFormatException.class, () -> {
         Integer.parseInt("One");
     });
- 
-}
+    }
 }

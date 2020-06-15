@@ -6,4 +6,9 @@ public class Solution {
             System.out.println(s);
         }
     }
+
+    public Integer parseInteger(String s){
+        return Integer.parseInt(s);
+    }
+
 }
