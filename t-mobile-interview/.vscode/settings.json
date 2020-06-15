@@ -1,0 +1,8 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\john2\\Downloads\\junit-platform-console-standalone-1.7.0-M1.jar"
+    ],
+    "java.dependency.packagePresentation": "flat",
+    "git.ignoreLimitWarning": true
+}
